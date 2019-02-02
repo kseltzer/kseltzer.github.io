@@ -162,7 +162,7 @@ p {
 }
 
 .logo {
-	max-width: 80%;
+	max-width: 70%;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -193,7 +193,7 @@ p {
 
 .intro h2 {
 	margin-bottom: 20px;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: 200;
 	line-height: 1.2;
 }
@@ -329,4 +329,66 @@ p {
 		padding-right: 0;
 		padding-left: 12px;
 	}
+}
+
+
+
+
+
+
+
+/* new css */
+
+@media only screen and (max-width: 1000px) {
+	.logo, .demo-btn {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+	}
+
+	h2 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
+
+	.demo-btn {
+		padding-left: 0px;
+		text-align: center;
+	}
+	
+	.features img {
+		padding-top: 80px;
+	}
+
+}
+
+@media only screen and (min-width: 1200px) {
+	.left-padding-lg {
+		padding-left: 24px;
+	}
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+.features {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.features .row {
+	padding-top: 60px;
+}
+
+.features img {
+	max-width: 50%;
+}
+
+.screenshot {
+	height: 90vh;
 }
