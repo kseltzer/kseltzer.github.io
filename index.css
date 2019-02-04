@@ -375,6 +375,11 @@ h2 {
 	font-size: 1.3em;
 }
 
+.primary-btn {
+	font-size: 1.1em;
+	border-radius: 6px;
+}
+
 .features {
 	font-size: 1.2em;
 	font-weight: bold;
